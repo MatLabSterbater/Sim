@@ -17,20 +17,21 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
-//						  Simulation structure 								//
+//							Simulation structure 							//
 //////////////////////////////////////////////////////////////////////////////
 struct inputs
 {
-	string varName;
-	float varValue;
+	string 	varName;
+	string 	varType;
+	string 	varValue;
 };
 
 struct objects
 {
 	int rate;
 	int order;
-	string className;
-	string classType;
+	string ClassName;
+	string ClassType;
 	vector<inputs> Inputs;
 	vector<string> Connections;
 };

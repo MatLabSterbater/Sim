@@ -1,0 +1,27 @@
+# Input file
+
+# Test object
+<startObj:testOBJ>
+    <startVar:testBool>
+        <type:bool><value:true>
+    <endVar>
+    <startVar:testChar>
+        <type:char><value:test char>
+    <endVar>
+    <startVar:testString>
+        <type:string><value:test string>
+    <endVar>
+    <startVar:testDouble>
+        <type:double>
+        <value:10.5>
+    <endVar>
+    <startVar:testFloat><type:float><value:9.9><endVar>
+    <startVar:testVector><type:vector><value:{1.0,2.3,5.5}><endVar>
+<endObj>
+
+# Error Object
+<startObj:errorObj>
+    <startVar:testChar><type:bool><value:true><endVar>
+<endObj>
+
+

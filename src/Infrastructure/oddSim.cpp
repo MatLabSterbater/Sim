@@ -16,7 +16,7 @@
 #include <vector>
 //#include <unistd.h>
 
-#include "oddSim.h"
+#include "parseArgs.h"
 
 using namespace std;
 
@@ -24,7 +24,7 @@ int main( int argc, char* argv[] )
 {			
 	simStructure simStruct = parseArgs( argc,argv );
 
-	
+	// scheduleStruct Schedule = simScheduler( simStructure );
 }
 
 
